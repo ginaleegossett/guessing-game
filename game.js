@@ -1,10 +1,19 @@
-var question1 = prompt("Was it easy to get to CF today?");
+var question1 = prompt('Do you live in Montana?');
 
 if (question1.toUpperCase() === 'YES') {
-	alert('Lucky you');
+	alert('What a beautiful place to live!');
 } else {
-	alert('Sucks to be you')
+	alert('You are missing out!');
 }
 
-console.log('Question 1 response: ' + question1);
-console.log('Question 1 response toUpperCase(): ' + question1.toUpperCase());
+var question2 = prompt('Is your favorite color blue?');
+var question3 = prompt('Is Harry Potter your favorite book series?');
+
+console.log('Does user live in Montana ' + question1);
+console.log('Is user favorite color blue? ' + question2);
+console.log('Is Harry Potter favorite book series? ' + question3);
+
+
+
+
+
