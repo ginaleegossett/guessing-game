@@ -1,2 +1,6 @@
-# class-demo-29sept
-In-class demo for B-34 for using GitHub and writing some code
+# Guessing Game
+Guessing game paired programming assignment at Code Fellows.
+
+October 1, 2015
+Driver: Alexander Lau
+Navigator: Gina Lee Gossett
