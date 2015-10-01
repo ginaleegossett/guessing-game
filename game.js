@@ -2,7 +2,7 @@ var one = document.getElementById("one");
 var two = document.getElementById("two");
 var three = document.getElementById("three");
 
-var i = 0
+var userScore = 0
 
 
 function ques1() {
@@ -10,7 +10,7 @@ function ques1() {
 
   if (question1.toUpperCase() === 'YES' || question1.toUpperCase() === 'Y') {
   	one.innerHTML='Lucky you! What a beautiful place to live!';
-  	i++;
+  	userScore++;
   } else {
   	one.innerHTML='No? You are missing out!';
   }
@@ -21,7 +21,7 @@ function ques2() {
 
   if (question2.toUpperCase() === 'YES' || question2.toUpperCase() === 'Y') {
   	two.innerHTML='You are correct! Autumn is the best season!';
-  	i++;
+  	userScore++;
   } else {
   	two.innerHTML='Sorry, you are wrong. Autumn means sweaters and boots and Pumpkin Spiced Lattes!';
   }
@@ -32,7 +32,7 @@ function ques3() {
 
   if (question3.toUpperCase() === 'YES' || question3.toUpperCase() === 'Y') {
   	three.innerHTML='Yes! You are a pretty cool person!';
-  	i++;
+  	userScore++;
   } else {
   	three.innerHTML='It is not? You need to rethink your answer.';
   }
@@ -42,12 +42,10 @@ ques1();
 ques2();
 ques3();
 
-alert('Thanks for playing! You got ' + i + ' answers correct! You are pretty awesome!');
+alert('Thanks for playing! You got ' + userScore + ' answers correct! You are pretty awesome!');
 
 
 
 console.log('Does user live in Montana ' + question1);
 console.log('Is autumn the best season? ' + question2); 		
 console.log('Is Harry Potter favorite book series? ' + question3);
-
-
