@@ -44,7 +44,10 @@ ques3();
 
 alert('Thanks for playing! You got ' + i + ' answers correct! You are pretty awesome!');
 
+
+
 console.log('Does user live in Montana ' + question1);
 console.log('Is autumn the best season? ' + question2); 		
 console.log('Is Harry Potter favorite book series? ' + question3);
+
 
