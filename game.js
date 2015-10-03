@@ -8,9 +8,9 @@ var imgThree = document.getElementById("imgThree");
 
 
 
-var questions = ['Do you live in Montana?', 'Is autumn the best season?', 'Is Harry Potter your favorite book series?']
-var answers = ['YES', 'Y','NO', 'N']
-var userScore = 0
+var questions = ['Do you live in Montana?', 'Is autumn the best season?', 'Is Harry Potter your favorite book series?'];
+var answers = ['YES', 'Y','NO', 'N'];
+var userScore = 0;
 
 
 function ques1() {
@@ -18,7 +18,7 @@ function ques1() {
 
   if (question1.toUpperCase() === answers[0] || question1.toUpperCase() === answers[1]) {
   	one.innerHTML='Lucky you! What a beautiful place to live!';
-    imgOne.innerHTML="<img src=img/Montana.jpeg width=200 />";
+    imgOne.innerHTML='<img src="img/Montana.jpeg" width=200 />';
     one.className = "right";
   	userScore++;
   } else {
@@ -33,7 +33,7 @@ function ques2() {
 
   if (question2.toUpperCase() === answers[0] || question2.toUpperCase() === answers[1]) {
   	two.innerHTML='You are correct! Autumn is the best season!';
-    imgTwo.innerHTML="<img src=img/autumn.jpg width=200 />";
+    imgTwo.innerHTML='<img src="img/autumn.jpg" width=200 />';
     two.className = "right";
   	userScore++;
   } else {
@@ -48,7 +48,7 @@ function ques3() {
 
   if (question3.toUpperCase() === answers[0] || question3.toUpperCase() === answers[1]) {
   	three.innerHTML='Yes! You are a pretty cool person!';
-    imgThree.innerHTML="<img src=img/harrypotterbooks.jpg width=200 />";
+    imgThree.innerHTML='<img src="img/harrypotterbooks.jpg" width=200 />';
     three.className = "right";
   	userScore++;
   } else {
@@ -59,8 +59,8 @@ function ques3() {
 }
 
  ques1();
- window.setTimeout(ques2, 2000);
- window.setTimeout(ques3, 2000);
+ window.setTimeout(ques2, 10);
+ window.setTimeout(ques3, 20);
 
 // alert('Thanks for playing! You got ' + userScore + ' answers correct! You are pretty awesome!');
 
