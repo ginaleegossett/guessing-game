@@ -1,0 +1,13 @@
+body {
+  background-color: #BFBFBF;
+  font-family: Georgia;
+}
+
+p.right {
+  color: green;
+}
+
+p.wrong {
+  color: red;
+}
+
