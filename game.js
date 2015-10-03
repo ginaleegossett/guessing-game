@@ -18,7 +18,7 @@ function ques1() {
 
   if (question1.toUpperCase() === answers[0] || question1.toUpperCase() === answers[1]) {
   	one.innerHTML='Lucky you! What a beautiful place to live!';
-    imgOne.innerHTML="<img src=img/montana.jpeg width=200 />";
+    imgOne.innerHTML="<img src=img/Montana.jpeg width=200 />";
     one.className = "right";
   	userScore++;
   } else {
@@ -64,7 +64,7 @@ function ques3() {
 
 // alert('Thanks for playing! You got ' + userScore + ' answers correct! You are pretty awesome!');
 
-
+//had to change the montana image code. this comment to be deleted later -MH
 
 
 
